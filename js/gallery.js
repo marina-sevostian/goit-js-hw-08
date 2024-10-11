@@ -87,4 +87,5 @@ gallery.addEventListener('click', event => {
   if (event.target.nodeName !== 'IMG') {
     return;
   }
+  console.log(event.original);
 });
