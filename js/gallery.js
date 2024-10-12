@@ -87,7 +87,7 @@ gallery.addEventListener('click', event => {
   if (event.target.nodeName !== 'IMG') {
     return;
   }
-  const selectedImage = event.target.dataset.sourse;
+  const selectedImage = event.target.dataset.source;
   const instance = basicLightbox.create(
     `<img src="${selectedImage}" width="800" height="600">`
   );
